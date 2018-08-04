@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_facebook"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ff00"
+        android:src="@drawable/ic_facebook"
+        android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_chrome"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ff00"
+        android:src="@drawable/ic_chrome"
+        android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_twitch"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ff00"
+        android:src="@drawable/ic_twitch"
+        android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_skype"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ff00"
+        android:src="@drawable/ic_skype"
+        android:visibility="invisible"/>
+</RelativeLayout>
